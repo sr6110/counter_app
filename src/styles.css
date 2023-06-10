@@ -1,0 +1,41 @@
+#counterApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  row-gap: 30px;
+}
+
+#counterApp > div:first-child {
+  display: flex;
+  column-gap: 20px;
+}
+
+.counter {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#inputNumber {
+  font-size: 16px;
+}
+
+#count {
+  font-size: 5rem;
+  color: #cbe432;
+}
+
+.buttons > button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  background-color: #66b032;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#reset {
+  background-color: #fc600a;
+}
